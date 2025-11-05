@@ -1,0 +1,33 @@
+name: 'My Material Subtheme'
+type: theme
+description: 'Подтема, основанная на Material Base (настройки и переопределения).'
+core_version_requirement: ^11
+# МАШИННОЕ имя базовой темы — проверь исходную тему!
+base theme: material_base
+# Библиотеки, которые будут автоматически подключены
+libraries:
+  - my_material_subtheme/global-styling
+
+regions:
+  navbar: 'Navbar'
+  header: 'Header'
+  actions: 'Actions'
+  main_top: 'Main top'
+  content_above: 'Content above'
+  breadcrumb: 'Breadcrumb'
+  messages: 'Messages'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  content_secondary: 'Content secondary'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  content_below: 'Content below'
+  main_bottom: 'Main bottom'
+  footer: 'Footer'
+  drawer: 'Drawer'
+  overlay: 'Overlay'
+
+regions_hidden:
+  page_bottom: 'Page bottom'
+  page_top: 'Page top'

@@ -1,0 +1,13 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/script.js: {}
+  dependencies:
+    - material_base/base          # подключаем базовую библиотеку 'base' из material_base
+    - material_base/grid          # если нужна сетка из базовой темы
+    - material_base/fonts         # шрифты базовой темы (если нужно)
+    - material_base/icons-font    # иконки базовой темы (если нужно)
+    - core/drupal
+    - core/once

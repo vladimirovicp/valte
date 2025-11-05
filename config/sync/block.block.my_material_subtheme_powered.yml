@@ -1,0 +1,22 @@
+uuid: 767cf1b0-30e9-4b3f-a6fb-db2d542bb7b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - my_material_subtheme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: my_material_subtheme_powered
+theme: my_material_subtheme
+region: navbar
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
